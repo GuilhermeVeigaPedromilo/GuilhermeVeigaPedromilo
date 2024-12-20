@@ -1,6 +1,6 @@
 # 👋 Bem-vindo ao meu perfil!
 
-Eu sou **Guilherme Veiga Pedromilo**, desenvolvedor técnico em sistemas voltados para soluções do mercado de trabalho. Sempre em busca de novos desafios e aprendizados!
+Eu sou **Guilherme Veiga Pedromilo**, desenvolvedor técnico especializado em sistemas que otimizam processos e atendem às demandas do mercado de trabalho. Com foco em soluções eficientes, busco sempre entender as necessidades do mercado e transformar desafios em oportunidades, contribuindo para o crescimento e a competitividade dos negócios. Estou em constante aprendizado para acompanhar as tendências tecnológicas e entregar resultados de alto impacto.
 
 ---
 
