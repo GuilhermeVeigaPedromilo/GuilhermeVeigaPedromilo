@@ -29,9 +29,34 @@ Eu sou **Guilherme Veiga Pedromilo**, desenvolvedor técnico especializado em si
 
 ---
 
-## Destaques
+## 🌟 Destaques
 
-<div align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; padding: 20px;"> <!-- DIO Lab Open Source --> <div style="background: #f3f4f6; border-radius: 8px; padding: 15px; text-align: center; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"> <img src="./public/HeinekenDIO.png" alt="Heineken Icon bootcamp DIO" width="50" style="margin-bottom: 10px;"> <h3 style="color: #333; font-weight: bold; margin: 5px 0;">Heineken - Inteligência Artificial Aplicada a Dados com Copilot</h3> <p style="color: #555; font-size: 14px;">Participação do bootcamp oferecido pela DIO e Heineken.</p> <a href="https://www.dio.me/users/guipedromilo" target="_blank" style="text-decoration: none; color: #0070f3; font-weight: bold;">Ver perfil na DIO →</a> </div> <!-- Venturo --> <div style="background: #f3f4f6; border-radius: 8px; padding: 15px; text-align: center; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"> <img src="./src/assets/images/Venturo.png" alt="Venturo logo" width="50" style="margin-bottom: 10px;"> <h3 style="color: #333; font-weight: bold; margin: 5px 0;">Venturo</h3> <p style="color: #555; font-size: 14px;">Participação no desenvolvimento do Venturo ERP.</p> <a href="https://github.com/Venturo-s-Dev-Team" target="_blank" style="text-decoration: none; color: #0070f3; font-weight: bold;">Ver no GitHub →</a> </div> <!-- PixelBank --> <div style="background: #f3f4f6; border-radius: 8px; padding: 15px; text-align: center; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"> <img src="./src/assets/images/pixelbank.png" alt="GitHub logo" width="50" style="margin-bottom: 10px;"> <h3 style="color: #333; font-weight: bold; margin: 5px 0;">PixelBank</h3> <p style="color: #555; font-size: 14px;">Participação no desenvolvimento de um protótipo de aplicativo bancário</p> <a href="https://github.com/GuilhermeVeigaPedromilo/_Project_Pixel_Prophets_.git" target="_blank" style="text-decoration: none; color: #0070f3; font-weight: bold;">Ver no GitHub →</a> </div> <!-- SP MEDICAL GROUP --> <div style="background: #f3f4f6; border-radius: 8px; padding: 15px; text-align: center; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"> <img src="./src/assets/images/SP_Medical_Group.png" alt="GitHub logo" width="50" style="margin-bottom: 10px;"> <h3 style="color: #333; font-weight: bold; margin: 5px 0;">SP-Medical Group</h3> <p style="color: #555; font-size: 14px;">Primeiro projeto realizado - Site clínico</p> <a href="https://github.com/GuilhermeVeigaPedromilo/SP-Medical-Group-SENAI" target="_blank" style="text-decoration: none; color: #0070f3; font-weight: bold;">Ver no GitHub →</a> </div></div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin: 10px;">
+  <div style="background-color: white; border-radius: 20px; color: black; flex: 1 1 calc(33% - 20px); max-width: calc(33% - 20px); text-align: center; padding: 20px;">
+    <img src="./public/HeinekenDIO.png" width="100" alt="Heineken Icon bootcamp DIO"><br>
+    <h3>Heineken - IA Aplicada a Dados com Copilot</h3>
+    <p>Participação do bootcamp oferecido pela DIO e Heineken.</p>
+    <a href="https://www.dio.me/users/guipedromilo" target="_blank">Ver perfil na DIO →</a>
+  </div>
+  <div style="background-color: white; border-radius: 20px; color: black; flex: 1 1 calc(33% - 20px); max-width: calc(33% - 20px); text-align: center; padding: 20px;">
+    <img src="./src/assets/images/Venturo.png" width="100" alt="Venturo logo"><br>
+    <h3>Venturo</h3>
+    <p>Participação no desenvolvimento do Venturo ERP.</p>
+    <a href="https://github.com/Venturo-s-Dev-Team" target="_blank">Ver no GitHub →</a>
+  </div>
+  <div style="background-color: white; border-radius: 20px; color: black; flex: 1 1 calc(33% - 20px); max-width: calc(33% - 20px); text-align: center; padding: 20px;">
+    <img src="./src/assets/images/pixelbank.png" width="100" alt="PixelBank logo"><br>
+    <h3>PixelBank</h3>
+    <p>Participação no desenvolvimento de um protótipo de aplicativo bancário</p>
+    <a href="https://github.com/GuilhermeVeigaPedromilo/_Project_Pixel_Prophets_.git" target="_blank">Ver no GitHub →</a>
+  </div>
+  <div style="background-color: white; border-radius: 20px; color: black; flex: 1 1 calc(33% - 20px); max-width: calc(33% - 20px); text-align: center; padding: 20px;">
+    <img src="./src/assets/images/SP_Medical_Group.png" width="100" alt="SP Medical Group logo"><br>
+    <h3>SP-Medical Group</h3>
+    <p>Primeiro projeto realizado - Site clínico</p>
+    <a href="https://github.com/GuilhermeVeigaPedromilo/SP-Medical-Group-SENAI" target="_blank">Ver no GitHub →</a>
+  </div>
+</div>
 
 ---
 
