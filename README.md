@@ -1,28 +1,3 @@
-<style>
-  .highlight-card {
-    border-radius: 20px;
-    flex: 1 1 calc(33% - 20px);
-    max-width: calc(33% - 20px);
-    text-align: center;
-    padding: 20px;
-    transition: background-color 0.3s, color 0.3s;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    .highlight-card {
-      background-color: #1f1f1f;
-      color: #fff;
-    }
-  }
-
-  @media (prefers-color-scheme: light) {
-    .highlight-card {
-      background-color: #fff;
-      color: #000;
-    }
-  }
-</style>
-
 <img src="./src/assets/images/Guilherme Veiga Pedromilo.jpg" alt="Guilherme Veiga Pedromilo" />
 
 ---
@@ -62,35 +37,35 @@ Procuro estar sempre aprendendo algo novo para me atualizar as novas tendências
 
 <div align="center" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
 
-  <div class="highlight-card">
+  <div   style="border-radius: 20px; text-align: center; padding: 20px; margin: 10px; background-color: #1e1e1e; color: white; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
     <img src="./public/HeinekenDIO.png" width="100" alt="Heineken Icon bootcamp DIO"><br>
     <h3>Heineken - IA com Copilot</h3>
     <p>Bootcamp Realizado.</p>
     <a href="https://github.com/GuilhermeVeigaPedromilo/Desafios-de-projeto-Bootcamp-HeinekenIntelig-nciaArtificialAplicadaADadosComCopilot.git" target="_blank">Ver repositório →</a>
   </div>
 
-  <div class="highlight-card">
+  <div   style="border-radius: 20px; text-align: center; padding: 20px; margin: 10px; background-color: #1e1e1e; color: white; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
     <img src="./public/pytho dio.webp" width="100" alt="Suzano Python Developer logo"><br>
     <h3>Suzano Python Developer</h3>
     <p>Bootcamp Realizado.</p>
     <a href="https://www.dio.me/users/guipedromilo" target="_blank">Ver perfil na DIO →</a>
   </div>
 
-  <div class="highlight-card">
+  <div   style="border-radius: 20px; text-align: center; padding: 20px; margin: 10px; background-color: #1e1e1e; color: white; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
     <img src="./src/assets/images/Venturo.png" width="100" alt="Venturo logo"><br>
     <h3>Venturo ERP</h3>
     <p>Participação no desenvolvimento.</p>
     <a href="https://github.com/Venturo-s-Dev-Team" target="_blank">Ver no GitHub →</a>
   </div>
 
-  <div class="highlight-card">
+  <div   style="border-radius: 20px; text-align: center; padding: 20px; margin: 10px; background-color: #1e1e1e; color: white; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
     <img src="./src/assets/images/pixelbank.png" width="100" alt="PixelBank logo"><br>
     <h3>PixelBank</h3>
     <p>Protótipo de app bancário.</p>
     <a href="https://github.com/GuilhermeVeigaPedromilo/_Project_Pixel_Prophets_.git" target="_blank">Ver no GitHub →</a>
   </div>
 
-  <div class="highlight-card">
+  <div   style="border-radius: 20px; text-align: center; padding: 20px; margin: 10px; background-color: #1e1e1e; color: white; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
     <img src="./src/assets/images/SP_Medical_Group.png" width="100" alt="SP Medical Group logo"><br>
     <h3>SP-Medical Group</h3>
     <p>Site clínico - Primeiro projeto.</p>
