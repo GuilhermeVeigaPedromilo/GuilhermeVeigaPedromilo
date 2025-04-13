@@ -1,4 +1,28 @@
-<link rel="stylesheet" href="./sr/css/css_dio.css" />
+<style>
+  .highlight-card {
+    border-radius: 20px;
+    flex: 1 1 calc(33% - 20px);
+    max-width: calc(33% - 20px);
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .highlight-card {
+      background-color: #1f1f1f;
+      color: #fff;
+    }
+  }
+
+  @media (prefers-color-scheme: light) {
+    .highlight-card {
+      background-color: #fff;
+      color: #000;
+    }
+  }
+</style>
+
 <img src="./src/assets/images/Guilherme Veiga Pedromilo.jpg" alt="Guilherme Veiga Pedromilo" />
 
 ---
