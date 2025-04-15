@@ -43,38 +43,7 @@ Procuro estar sempre aprendendo algo novo para me atualizar as novas tendências
 
 ## 🌟 Destaques
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; padding: 40px;">
-  <div style="width: 250px; border-radius: 20px; text-align: center; padding: 20px; background-color: #1e1e1e; color: white; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./public/HeinekenDIO.png" width="100"><br>
-    <h3>Heineken - IA com Copilot</h3>
-    <p>Bootcamp Realizado.</p>
-    <a href="https://github.com/GuilhermeVeigaPedromilo/Desafios-de-projeto-Bootcamp-HeinekenIntelig-nciaArtificialAplicadaADadosComCopilot.git" target="_blank">Ver repositório →</a>
-  </div>
-  <div style="width: 250px; border-radius: 20px; text-align: center; padding: 20px; background-color: #1e1e1e; color: white; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./public/pytho dio.webp" width="100"><br>
-    <h3>Suzano Python Developer</h3>
-    <p>Bootcamp Realizado.</p>
-    <a href="https://github.com/GuilhermeVeigaPedromilo/Suzano---Python-Developer.git" target="_blank">Ver repositório →</a>
-  </div>
-  <div style="width: 250px; border-radius: 20px; text-align: center; padding: 20px; background-color: #1e1e1e; color: white; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./src/assets/images/Venturo.png" width="100"><br>
-    <h3>Venturo ERP</h3>
-    <p>Participação no desenvolvimento.</p>
-    <a href="https://github.com/Venturo-s-Dev-Team" target="_blank">Ver no GitHub →</a>
-  </div>
-  <div style="width: 250px; border-radius: 20px; text-align: center; padding: 20px; background-color: #1e1e1e; color: white; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./src/assets/images/pixelbank.png" width="100"><br>
-    <h3>PixelBank</h3>
-    <p>Protótipo de app bancário.</p>
-    <a href="https://github.com/GuilhermeVeigaPedromilo/_Project_Pixel_Prophets_.git" target="_blank">Ver no GitHub →</a>
-  </div>
-  <div style="width: 250px; border-radius: 20px; text-align: center; padding: 20px; background-color: #1e1e1e; color: white; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
-    <img src="./src/assets/images/SP_Medical_Group.png" width="100"><br>
-    <h3>SP-Medical Group</h3>
-    <p>Site clínico - Primeiro projeto.</p>
-    <a href="https://github.com/GuilhermeVeigaPedromilo/SP-Medical-Group-SENAI" target="_blank">Ver no GitHub →</a>
-  </div>
-</div>
+<table align="center"> <tr> <td align="center" width="33%"> <img src="./public/HeinekenDIO.png" width="100" alt="Heineken DIO"><br> <strong>Heineken - IA com Copilot</strong><br> <em>Bootcamp Realizado</em><br> <a href="https://github.com/GuilhermeVeigaPedromilo/Desafios-de-projeto-Bootcamp-HeinekenIntelig-nciaArtificialAplicadaADadosComCopilot.git">Ver repositório →</a> </td> <td align="center" width="33%"> <img src="./public/pytho dio.webp" width="100" alt="Python DIO"><br> <strong>Suzano Python Developer</strong><br> <em>Bootcamp Realizado</em><br> <a href="https://github.com/GuilhermeVeigaPedromilo/Suzano---Python-Developer.git">Ver repositório →</a> </td> <td align="center" width="33%"> <img src="./src/assets/images/Venturo.png" width="100" alt="Venturo"><br> <strong>Venturo ERP</strong><br> <em>Participação no desenvolvimento</em><br> <a href="https://github.com/Venturo-s-Dev-Team">Ver no GitHub →</a> </td> </tr> <tr> <td align="center" width="33%"> <img src="./src/assets/images/pixelbank.png" width="100" alt="PixelBank"><br> <strong>PixelBank</strong><br> <em>Protótipo de app bancário</em><br> <a href="https://github.com/GuilhermeVeigaPedromilo/_Project_Pixel_Prophets_.git">Ver no GitHub →</a> </td> <td align="center" width="33%"> <img src="./src/assets/images/SP_Medical_Group.png" width="100" alt="SP Medical Group"><br> <strong>SP-Medical Group</strong><br> <em>Site clínico - Primeiro projeto</em><br> <a href="https://github.com/GuilhermeVeigaPedromilo/SP-Medical-Group-SENAI">Ver no GitHub →</a> </td> <td></td> </tr> </table>
 
 ---
 
