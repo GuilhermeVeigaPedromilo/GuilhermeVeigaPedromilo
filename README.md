@@ -2,11 +2,13 @@
 
 ---
 
-Sou desenvolvedor técnico de sistemas e estou em processo de formação em Engenharia de Software e técnico em eletroeletrônica. Gosto de propor soluções à problemas, busco visualizar de forma sistêmica os processos e trabalhar em equipe. Sou proativo, altruísta, organizado e flexível. 
+Sou desenvolvedor técnico de sistemas e técnico em eletroeletrônica e estou em processo de formação em Engenharia de Software. Gosto de propor soluções à problemas, busco visualizar de forma sistêmica os processos e trabalhar em equipe. Sou proativo, altruísta, organizado e flexível. 
 
-Trabalho com desenvolvimento de sistemas web e mobile com as seguintes tecnologias de front-end: REACT; VITE; REACT NATIVE; CSS; HTML; JS; WordPress; Bootstrap. E back-end: API REST com Node; JS; ORM'S; SQL Query Builder; SGBD SQL e NoSQL (mongoDB); Express; JWT; Google Cloud Plataform (GCP). Além disso, tenho alguns conhecimentos em treinamentos de modelo de IA com a GCP.
+Meu objetivo é desenvolver uma carreira no mundo da tecnologia, sendo minha paixão a área de desenvolvimento de software.
 
-Procuro estar sempre aprendendo algo novo para me atualizar as novas tendências, para superar desafios e entregar soluções alinhadas as metodologias ágeis como Scrum e Kanban, ou 5S, de forma que seja alcançadas as metas propostas e haja evolução como profissional.
+Trabalho com desenvolvimento de sistemas web e mobile com as seguintes tecnologias de front-end: REACT; VITE; REACT NATIVE; CSS; HTML; JS; WordPress; Bootstrap; Canva; Figma. E back-end: API REST com Node; JS; ORM'S; SQL Query Builder; SGBD SQL e NoSQL (mongoDB); Express; JWT; Google Cloud Plataform (GCP). Além disso, tenho alguns conhecimentos em treinamentos de modelos e implantação de serviços em nuvem com IA na GCP.
+
+Além disso, procuro sempre aprender algo novo para me atualizar as novas tendências do mercado, para superar desafios e entregar soluções alinhadas as metodologias ágeis como Scrum e Kanban ou 5S, de forma que seja alcançadas as metas propostas e haja evolução como profissional.
 
 ---
 
