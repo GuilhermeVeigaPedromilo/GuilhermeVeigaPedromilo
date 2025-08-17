@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Exo2";
+  src: url("../fonts/static/Exo2-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Exo2_SemiBold";
+  src: url("../fonts/static/Exo2-SemiBold.ttf") format("truetype");
+}
+
+:root {
+  --font-family: "Exo2", sans-serif;
+  --font-family-semi-bold: "Exo2_SemiBold", sans-serif;
+}

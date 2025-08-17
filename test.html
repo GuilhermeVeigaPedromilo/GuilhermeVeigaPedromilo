@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Experiências</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            min-height: 100vh;
+            padding: 24px;
+        }
+
+        .container {
+            max-width: 1024px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 16px;
+        }
+
+        .header p {
+            color: #718096;
+            font-size: 1.125rem;
+        }
+
+        .experiences-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .experience-item {
+            position: relative;
+            overflow: hidden;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .experience-compact {
+            background: white;
+            border-radius: 12px;
+            border: 2px solid;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .experience-compact:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .experience-compact.expanded {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .compact-content {
+            padding: 24px;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .compact-info {
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            gap: 16px;
+            align-items: center;
+        }
+
+        .company-info {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .company-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .company-details h3 {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 4px;
+        }
+
+        .company-details p {
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+
+        .period-info {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #718096;
+            font-size: 0.875rem;
+        }
+
+        .location-info {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #718096;
+            font-size: 0.875rem;
+        }
+
+        .expand-icon {
+            width: 20px;
+            height: 20px;
+            color: #a0aec0;
+            transition: transform 0.3s ease;
+        }
+
+        .expand-icon.rotated {
+            transform: rotate(90deg);
+        }
+
+        .experience-expanded {
+            background: white;
+            border: 2px solid;
+            border-top: none;
+            border-radius: 0 0 12px 12px;
+            max-height: 0;
+            opacity: 0;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            overflow: hidden;
+        }
+
+        .experience-expanded.open {
+            max-height: 600px;
+            opacity: 1;
+        }
+
+        .expanded-content {
+            padding: 0 24px 24px;
+        }
+
+        .experience-image {
+            width: 100%;
+            height: 192px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        .description-section h4,
+        .skills-section h4 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #1a202c;
+            margin-bottom: 12px;
+        }
+
+        .description-text {
+            color: #4a5568;
+            line-height: 1.6;
+            font-size: 0.875rem;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+
+        .skill-tag {
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .duration-card {
+            padding: 16px;
+            border-radius: 8px;
+            border: 1px solid;
+            border-opacity: 0.3;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .duration-info p:first-child {
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: #4a5568;
+            margin-bottom: 4px;
+        }
+
+        .duration-info p:last-child {
+            font-size: 1.125rem;
+            font-weight: 700;
+        }
+
+        .duration-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        .close-button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 24px;
+        }
+
+        .close-button {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            font-size: 0.875rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .close-button:hover {
+            opacity: 0.8;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 48px;
+            color: #a0aec0;
+            font-size: 0.875rem;
+        }
+
+        /* Color Classes */
+        .color-blue {
+            border-color: #3b82f6;
+        }
+        .color-blue .company-icon,
+        .color-blue .duration-icon {
+            background-color: #3b82f6;
+        }
+        .color-blue .company-details p {
+            color: #2563eb;
+        }
+        .color-blue .skill-tag {
+            background-color: #eff6ff;
+            color: #2563eb;
+        }
+        .color-blue .duration-card {
+            background-color: #eff6ff;
+            border-color: #3b82f6;
+        }
+        .color-blue .duration-info p:last-child {
+            color: #2563eb;
+        }
+        .color-blue .close-button {
+            background-color: #eff6ff;
+            color: #2563eb;
+        }
+
+        .color-green {
+            border-color: #22c55e;
+        }
+        .color-green .company-icon,
+        .color-green .duration-icon {
+            background-color: #22c55e;
+        }
+        .color-green .company-details p {
+            color: #16a34a;
+        }
+        .color-green .skill-tag {
+            background-color: #f0fdf4;
+            color: #16a34a;
+        }
+        .color-green .duration-card {
+            background-color: #f0fdf4;
+            border-color: #22c55e;
+        }
+        .color-green .duration-info p:last-child {
+            color: #16a34a;
+        }
+        .color-green .close-button {
+            background-color: #f0fdf4;
+            color: #16a34a;
+        }
+
+        .color-purple {
+            border-color: #a855f7;
+        }
+        .color-purple .company-icon,
+        .color-purple .duration-icon {
+            background-color: #a855f7;
+        }
+        .color-purple .company-details p {
+            color: #9333ea;
+        }
+        .color-purple .skill-tag {
+            background-color: #faf5ff;
+            color: #9333ea;
+        }
+        .color-purple .duration-card {
+            background-color: #faf5ff;
+            border-color: #a855f7;
+        }
+        .color-purple .duration-info p:last-child {
+            color: #9333ea;
+        }
+        .color-purple .close-button {
+            background-color: #faf5ff;
+            color: #9333ea;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .compact-info {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+            
+            .content-grid {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>Experiência</h1>
+            <p>Clique nas abas para ver os detalhes</p>
+        </div>
+
+        <!-- Experiences List -->
+        <div class="experiences-list" id="experiencesList">
+            <!-- Experiences will be loaded here -->
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Portfolio interativo • Desenvolvido com HTML, CSS e JavaScript</p>
+        </div>
+    </div>
+
+    <script>
+        // Sample JSON data (replace with fetch from actual JSON file)
+        const experiencesData = [
+            {
+                "id": 1,
+                "company": "Kolbenschmidt Pistons Brazil LTDA",
+                "start": "Mar 2024",
+                "end": "Jan 2025",
+                "role": "Auxiliar de Escritório e em Geral",
+                "description": "Responsável pela gestão de documentos e processos administrativos. Desenvolvimento de soluções em Excel para otimização de processos internos. Suporte técnico em projetos de automação e melhoria contínua. Colaboração com equipes multidisciplinares para implementação de novas tecnologias.",
+                "location": "Jaguariúna, SP",
+                "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=400&fit=crop",
+                "color": "blue",
+                "skills": ["Excel Avançado", "Automação", "Gestão de Processos", "Análise de Dados"]
+            },
+            {
+                "id": 2,
+                "company": "TechCorp Innovation",
+                "start": "Jan 2023",
+                "end": "Feb 2024",
+                "role": "Desenvolvedor Frontend Junior",
+                "description": "Desenvolvimento de interfaces web responsivas utilizando React e TypeScript. Implementação de designs system e componentes reutilizáveis. Colaboração com equipe de UX/UI para criar experiências de usuário excepcionais. Otimização de performance e acessibilidade.",
+                "location": "São Paulo, SP",
+                "image": "https://images.unsplash.com/photo-1555421689-491a97ff2040?w=800&h=400&fit=crop",
+                "color": "green",
+                "skills": ["React", "TypeScript", "CSS3", "Design System"]
+            },
+            {
+                "id": 3,
+                "company": "StartupX Labs",
+                "start": "Jun 2022",
+                "end": "Dec 2022",
+                "role": "Estagiário de Desenvolvimento",
+                "description": "Primeiro contato profissional com desenvolvimento web. Criação de landing pages e sistemas internos. Aprendizado de metodologias ágeis e boas práticas de programação. Participação em projetos de inovação e desenvolvimento de MVPs.",
+                "location": "Campinas, SP",
+                "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=400&fit=crop",
+                "color": "purple",
+                "skills": ["HTML", "CSS", "JavaScript", "Git", "Scrum"]
+            }
+        ];
+
+        let selectedExperience = null;
+
+        // Icons (using simple text representations)
+        const icons = {
+            briefcase: '💼',
+            calendar: '📅',
+            mapPin: '📍',
+            chevronRight: '▶',
+            close: '✕'
+        };
+
+        function createExperienceHTML(experience) {
+            const companyInitial = experience.company.charAt(0);
+            
+            return `
+                <div class="experience-item" data-id="${experience.id}">
+                    <div class="experience-compact color-${experience.color}" onclick="toggleExperience(${experience.id})">
+                        <div class="compact-content">
+                            <div class="compact-info">
+                                <div class="company-info">
+                                    <div class="company-icon">${companyInitial}</div>
+                                    <div class="company-details">
+                                        <h3>${experience.company}</h3>
+                                        <p>${experience.role}</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="period-info">
+                                    <span>${icons.calendar}</span>
+                                    <span>${experience.start} - ${experience.end}</span>
+                                </div>
+                                
+                                <div class="location-info">
+                                    <span>${icons.mapPin}</span>
+                                    <span>${experience.location}</span>
+                                </div>
+                            </div>
+                            
+                            <div class="expand-icon" id="icon-${experience.id}">
+                                ${icons.chevronRight}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-expanded color-${experience.color}" id="expanded-${experience.id}">
+                        <div class="expanded-content">
+                            <img src="${experience.image}" alt="${experience.company}" class="experience-image">
+                            
+                            <div class="content-grid">
+                                <div class="description-section">
+                                    <h4>Descrição da Função</h4>
+                                    <p class="description-text">${experience.description}</p>
+                                </div>
+
+                                <div class="skills-section">
+                                    <h4>Habilidades Desenvolvidas</h4>
+                                    <div class="skills-list">
+                                        ${experience.skills.map(skill => 
+                                            `<span class="skill-tag">${skill}</span>`
+                                        ).join('')}
+                                    </div>
+
+                                    <div class="duration-card">
+                                        <div class="duration-info">
+                                            <p>Período de Trabalho</p>
+                                            <p>${experience.start} - ${experience.end}</p>
+                                        </div>
+                                        <div class="duration-icon">
+                                            ${icons.calendar}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="close-button-container">
+                                <button class="close-button" onclick="closeExperience()">
+                                    <span>${icons.close}</span>
+                                    <span>Fechar</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function toggleExperience(id) {
+            const wasSelected = selectedExperience === id;
+            
+            // Close currently selected experience
+            if (selectedExperience) {
+                closeExperience();
+            }
+            
+            // If clicking a different experience, open it
+            if (!wasSelected) {
+                selectedExperience = id;
+                const compactElement = document.querySelector(`[data-id="${id}"] .experience-compact`);
+                const expandedElement = document.getElementById(`expanded-${id}`);
+                const iconElement = document.getElementById(`icon-${id}`);
+                
+                compactElement.classList.add('expanded');
+                expandedElement.classList.add('open');
+                iconElement.classList.add('rotated');
+            }
+        }
+
+        function closeExperience() {
+            if (selectedExperience) {
+                const compactElement = document.querySelector(`[data-id="${selectedExperience}"] .experience-compact`);
+                const expandedElement = document.getElementById(`expanded-${selectedExperience}`);
+                const iconElement = document.getElementById(`icon-${selectedExperience}`);
+                
+                compactElement.classList.remove('expanded');
+                expandedElement.classList.remove('open');
+                iconElement.classList.remove('rotated');
+                
+                selectedExperience = null;
+            }
+        }
+
+        // Load experiences from JSON data
+        function loadExperiences() {
+            const experiencesList = document.getElementById('experiencesList');
+            
+            // In a real implementation, you would fetch from a JSON file:
+            // fetch('experiences.json')
+            //     .then(response => response.json())
+            //     .then(data => {
+            //         data.forEach(experience => {
+            //             experiencesList.innerHTML += createExperienceHTML(experience);
+            //         });
+            //     });
+            
+            // For this demo, using the embedded data:
+            experiencesData.forEach(experience => {
+                experiencesList.innerHTML += createExperienceHTML(experience);
+            });
+        }
+
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', loadExperiences);
+    </script>
+</body>
+</html>

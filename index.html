@@ -1,12 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Profissional</title>
-    <link rel="stylesheet" href="./src/styles/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Profissional</title>
+  <link rel="stylesheet" href="./src/styles/root.css">
+  <link rel="stylesheet" href="./src/styles/style.css">
 </head>
+<script src="./src/js/experience.js"></script>
+<script src="./src/js/education.js"></script>
 <body>
-    <h1>Guilherme Veiga Pedromilo</h1>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home" style="padding: 0 3rem;">
+      <div class="home-title">
+        <h1>GUILHERME VEIGA PEDROMILO</h1>
+        <h2>SOFTWARE ENGINEER</h2>
+      </div>
+      <figure>
+        <img src="./src/assets/images/guilherme_capa.png" alt="Foto Guilherme">
+      </figure>
+      <div id="particles"></div>
+    </section>
+    <section id="about">
+      <div class="about-content">
+        <h2>About Me</h2>
+        <div class="about-text">
+          <p>
+            Sou desenvolvedor técnico de sistemas e técnico em eletroeletrônica e estou em processo de formação em
+            Engenharia de Software.
+            Gosto de propor soluções à problemas, busco visualizar de forma sistêmica os processos e trabalhar em
+            equipe. Sou proativo,
+            altruísta, organizado e flexível.
+          </p>
+          <p>
+            Meu objetivo é desenvolver uma carreira no mundo da tecnologia, sendo minha paixão a área de desenvolvimento
+            de software.
+          </p>
+          <p>
+            Além disso, procuro sempre aprender algo novo para me atualizar as novas tendências do mercado, para superar
+            desafios e
+            entregar soluções alinhadas as metodologias ágeis, de forma que seja alcançadas as metas propostas e haja
+            evolução como profissional.
+          </p>
+        </div>
+      </div>
+      <figure>
+        <img src="./src/assets/images/picture_guilherme.png" alt="Foto do Guilherme enfrente ao Museu do Ipiranga">
+      </figure>
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <p>Clique nas abas para ver os detalhes</p>
+      <div id="experience-container" class="experience-grid"></div>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <p>Clique nas abas para ver os detalhes</p>
+      <div id="education-container" class="education-grid"></div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="./src/js/srcipt_canvas.js"></script>
+  </main>
 </body>
+
 </html>
