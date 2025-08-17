@@ -4,25 +4,109 @@
     "institution": "UniCesumar",
     "start": "fev. 2025",
     "end": "fev. 2029",
-    "name": "Engenharia de Software",
+    "name": "Bacharelado em Engenharia de Software",
     "description": "Curso Bacharelado em Engenharia de Software. Durante o primeiro semestre obtive resultados satisfatórios, fechando o primeiro módulo, referente as disciplicas: 'Fundamentos e Arquitetura de Computadores' e 'Redes de Computadores' com nota máxima.",
     "location": "Americana, SP",
     "image": "./src/assets/images/banner_unicesumar.png",
     "color": "blue",
     "logo": "<img src='./src/assets/images/logo_unicesumar.png' alt='UniCesumar Logo' class='institution-logo'>",
-    "skills": ["Diagrama UML", "Scrum", "Diagrama de Casos de Uso"]
+    "skills": [
+      "Diagrama UML",
+      "Scrum",
+      "Diagrama de Casos de Uso"
+    ]
   },
-    {
+  {
     "id_institution": 2,
     "institution": "SENAI American-SP 'Profº João Baptista Salles da Silva'",
-    "start": "fev. 2025",
-    "end": "fev. 2029",
-    "name": "Engenharia de Software",
-    "description": "Curso Bacharelado em Engenharia de Software. Durante o primeiro semestre obtive resultados satisfatórios, fechando o primeiro módulo, referente as disciplicas: 'Fundamentos e Arquitetura de Computadores' e 'Redes de Computadores' com nota máxima.",
+    "start": "jul. 2023",
+    "end": "jun. 2025",
+    "name": "Técnico em Eletroeletrônica",
+    "description": "Neste curso realizei atividades práticas e teóricas sobre instalações elétricas prediais, industriais e automação. Além disso, desenvolvi habilidades em programação Ladder.",
     "location": "Americana, SP",
-    "image": "./src/assets/images/banner_unicesumar.png",
-    "color": "blue",
-    "logo": "<img src='./src/assets/images/logo_unicesumar.png' alt='UniCesumar Logo' class='institution-logo'>",
-    "skills": ["Diagrama UML", "Scrum", "Diagrama de Casos de Uso"]
+    "image": "./src/assets/images/senai_americana.jpg",
+    "color": "red",
+    "logo": "<img src='./src/assets/images/logo_senai.png' alt='Logo do SENAI' class='institution-logo'>",
+    "skills": [
+      "Ladder",
+      "Instalações Prediais",
+      "Instalações Industriais",
+      "Automação",
+      "Interpretação de Desenhos Técnicos",
+      "Manuseio de Multímetro e Osciloscópio",
+      "Diagrama de Gantt"
+    ]
+  },
+  {
+    "id_institution": 3,
+    "institution": "Escola SENAI Dr. Celso Charuri - Unidade Sumaré",
+    "start": "jan. 2023",
+    "end": "dez. 2024",
+    "name": "Técnico em Desenvolvimento de Sistemas",
+    "description": "Neste curso pude aprender sobre psicologia das cores, UX/UI, desenvolvimento web, engenharia de requisitos básico, metodologias ágeis, bancos de dados SQL, desenvolvimento mobile. Durante dois anos, houve muitos momentos práticos de construção de software e teoria, por exemplo: Protocolo TCP/IP. No último ano de curso, fui escolhido como representante da turma de Nova Odessa.",
+    "location": "Nova Odessa, SP",
+    "image": "./src/assets/images/senai_formatura.jpg",
+    "color": "red",
+    "logo": "<img src='./src/assets/images/logo_senai.png' alt='Logo do SENAI' class='institution-logo'>",
+    "skills": [
+      "Desenvolvimento Web",
+      "Desenvolvimento Mobile",
+      "Bancos de Dados SQL",
+      "API REST",
+      "JavaScript",
+      "HTML/CSS",
+      "React.JS",
+      "React Native",
+      "WordPress",
+      "PhpMyAdmin",
+      "XAMPP",
+      "Git",
+      "GitHub",
+      "Scrum/Kanban",
+      "UX/UI",
+      "Psicologia das Cores (Gestalt)",
+      "Engenharia de Requisitos básico",
+      "Diagrama UML",
+      "Diagrama de Casos de Uso",
+      "Canva"
+    ]
+  },
+    {
+    "id_institution": 4,
+    "institution": "SESI-SP Nova Odessa-SP 'Chalil Zabani' (CE 436)",
+    "start": "jan. 2012",
+    "end": "dez. 2025",
+    "name": "Educação Básica - Ensino Médio",
+    "description": "Durante este período, participei de diveras atividades extracurriculares, como as olímpiadas de conhecimento, sendo premiado em 2024 com medalha de bronze na OBA (Olímpiada Brasileira de Astronomia e Astronáutica). Também participei de projetos sociais como doações de roupas e alimentos para APAE (Associação de Pais e Amigos dos Excepcionais) e doações de ração para abrigos de animais.",
+    "location": "Nova Odessa, SP",
+    "image": "./src/assets/images/sesi.jpg",
+    "color": "red",
+    "logo": "<img src='./src/assets/images/logo_senai.png' alt='Logo do SENAI' class='institution-logo'>",
+    "skills": [
+      "Trabalho em Equipe",
+      "Comunicação",
+      "Organização",
+      "Robótica",
+      "Conhecimentos Gerais"
+    ]
+  },
+      {
+    "id_institution": 5,
+    "institution": "English Café Club",
+    "start": "ago. 2023",
+    "end": "Atual",
+    "name": "Curso de Inglês - Metodologia Interchange",
+    "description": "Realização de Curso de Inglês para desevolver o Inglês como segundo idioma. Metodologia Aplicada: Interchange. Nível Atual: A2 em transição para B1.",
+    "location": "Nova Odessa, SP",
+    "image": "./src/assets/images/",
+    "color": "gradient-france",
+    "logo": "<img src='./src/assets/images/logo_english_cafe_club.png' alt='Logo do English Café Club' class='institution-logo'>",
+    "skills": [
+      "Trabalho em Equipe",
+      "Comunicação",
+      "Organização",
+      "Robótica",
+      "Conhecimentos Gerais"
+    ]
   }
 ]

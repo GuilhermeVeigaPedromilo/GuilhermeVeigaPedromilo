@@ -8,7 +8,7 @@
     "description": "Atuo no setor de Qualidade de Fornecedores, realizando o desenvolvimento, manutenção, inserção e atualização de dados em planilhas Excel, além do controle de calibradores padrões e instrumentos de medição da Inspeção de Recebimento. Desenvolvo dashboards utilizando Power BI baseado nos controles internos de PPAPs (Production Part Approval Process), calibradores, entre outros. Solicito ensaios de laboratório, realizo inspeções visuais em amostras, peças e componentes essenciais para o pistão. Todos os processos são aplicados através da metodologia 5S. Colaboro ativamente na criação de soluções e iniciativas de melhoria contínua junto à equipe.",
     "location": "Nova Odessa, SP",
     "image": "./src/assets/images/ks_pistons.jpg",
-    "color": "blue",
+    "color": "darkblue",
     "logo": "<img src='./src/assets/images/logo_ks.jpeg' alt='Kolbenschmidt Pistons Brazil LTDA Logo' class='company-logo'>",
     "skills": ["Excel", "Power BI", "Gestão Documental", "Análise de Dados", "Power Point", "Organização", "Inspeção Visual de Peças", "Comunicação", "Trabalho em Equipe"]
   }

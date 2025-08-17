@@ -257,7 +257,7 @@ section h2 {
 }
 
 .experience-expanded.open, .education-expanded.open {
-  max-height: 1200px;
+  max-height: 2000px;
   opacity: 1;
 }
 
@@ -267,7 +267,7 @@ section h2 {
 
 .experience-image, .education-image {
   width: 100%;
-  height: 500px;
+  height: auto;
   object-fit: cover;
   background-position: center;
   border-radius: 8px;
@@ -371,6 +371,66 @@ section h2 {
 }
 
 /* Color Classes */
+.color-red {
+  border-color: #ef4444;
+}
+.color-red .company-icon,
+.color-red .duration-icon {
+  background-color: #ef4444;
+}
+.color-red .skill-tag {
+  background-color: rgba(239, 68, 68, 0.1);
+  color: #b91c1c;
+  border-color: #ef4444;
+}
+.color-red .duration-card {
+  background-color: rgba(239, 68, 68, 0.05);
+  border-color: #ef4444;
+}
+.color-red .duration-info p:last-child {
+  color: #ef4444;
+}
+
+.color-yellow {
+  border-color: #eab308;
+}
+.color-yellow .company-icon,
+.color-yellow .duration-icon {
+  background-color: #eab308;
+}
+.color-yellow .skill-tag {
+  background-color: rgba(234, 179, 8, 0.1);
+  color: #a16207;
+  border-color: #eab308;
+}
+.color-yellow .duration-card {
+  background-color: rgba(234, 179, 8, 0.05);
+  border-color: #eab308;
+}
+.color-yellow .duration-info p:last-child {
+  color: #eab308;
+}
+
+.color-darkblue {
+  border-color: #1e3a8a;
+}
+.color-darkblue .company-icon,
+.color-darkblue .duration-icon {
+  background-color: #1e3a8a;
+}
+.color-darkblue .skill-tag {
+  background-color: rgba(30, 58, 138, 0.1);
+  color: #1e40af;
+  border-color: #1e3a8a;
+}
+.color-darkblue .duration-card {
+  background-color: rgba(30, 58, 138, 0.05);
+  border-color: #1e3a8a;
+}
+.color-darkblue .duration-info p:last-child {
+  color: #1e3a8a;
+}
+
 .color-blue {
   border-color: #00BDD2;
 }
@@ -450,6 +510,29 @@ section h2 {
 .color-orange .duration-info p:last-child {
   color: #f97316;
 }
+
+.color-gradient-france {
+  border-color: #1e3a8a; /* Azul forte como referência */
+}
+.color-gradient-france .company-icon,
+.color-gradient-france .duration-icon {
+  background: linear-gradient(to right, #1e3a8a, #ffffff, #ef4444);
+}
+.color-gradient-france .skill-tag {
+  background: linear-gradient(to right, rgba(30, 58, 138, 0.1), rgba(255,255,255,0.4), rgba(239, 68, 68, 0.1));
+  color: #1e3a8a;
+  border-color: #ef4444;
+}
+.color-gradient-france .duration-card {
+  background: linear-gradient(to right, rgba(30, 58, 138, 0.05), rgba(255,255,255,0.5), rgba(239, 68, 68, 0.05));
+  border-color: #1e3a8a;
+}
+.color-gradient-france .duration-info p:last-child {
+  background: linear-gradient(to right, #1e3a8a,  #ef4444);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Faz o texto herdar o gradiente */
+}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
