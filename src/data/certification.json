@@ -1,0 +1,19 @@
+[
+  {
+    "id_certification": 1,
+    "institution": "DIO",
+    "start": "fev. 2025",
+    "end": "fev. 2029",
+    "name": "DIO Campus Expert | Turma 12",
+    "description": "Curso Bacharelado em Engenharia de Software. Durante o primeiro semestre obtive resultados satisfatórios, fechando o primeiro módulo, referente as disciplicas: 'Fundamentos e Arquitetura de Computadores' e 'Redes de Computadores' com nota máxima.",
+    "location": "Nova Odessa, SP",
+    "image": "./src/assets/images/banner_unicesumar.png",
+    "color": "blue",
+    "logo": "<img src='./src/assets/images/logo_dio.png' alt='DIO Logo' class='institution-logo'>",
+    "skills": [
+      "Diagrama UML",
+      "Scrum",
+      "Diagrama de Casos de Uso"
+    ]
+  }
+]

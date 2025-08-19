@@ -81,7 +81,7 @@
     "location": "Nova Odessa, SP",
     "image": "./src/assets/images/sesi.jpg",
     "color": "red",
-    "logo": "<img src='./src/assets/images/logo_senai.png' alt='Logo do SENAI' class='institution-logo'>",
+    "logo": "<img src='./src/assets/images/logo_sesi.jpg' alt='Logo do SENAI' class='institution-logo'>",
     "skills": [
       "Trabalho em Equipe",
       "Comunicação",
@@ -98,15 +98,12 @@
     "name": "Curso de Inglês - Metodologia Interchange",
     "description": "Realização de Curso de Inglês para desevolver o Inglês como segundo idioma. Metodologia Aplicada: Interchange. Nível Atual: A2 em transição para B1.",
     "location": "Nova Odessa, SP",
-    "image": "./src/assets/images/",
+    "image": "./src/assets/images/english_cafe_club.png",
     "color": "gradient-france",
     "logo": "<img src='./src/assets/images/logo_english_cafe_club.png' alt='Logo do English Café Club' class='institution-logo'>",
     "skills": [
-      "Trabalho em Equipe",
-      "Comunicação",
-      "Organização",
-      "Robótica",
-      "Conhecimentos Gerais"
+      "Inglês A1",
+      "Inglês A2"
     ]
   }
 ]

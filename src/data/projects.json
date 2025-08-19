@@ -1,0 +1,71 @@
+[
+  {
+    "id_project": 1,
+    "name_project": "Venturo ERP",
+    "start": "jun. 2024",
+    "end": "dez. 2024",
+    "subtitle": "Software Web",
+    "description": "Desenvolvimento de um ERP projetado como Micro SAAS Multi-Tenant com Multi-Schemas em React (utilizando o Vite), o qual oferece um controle de estoque, vendas, financeiro e gestão de funcionários. Projetado pela equipe Venturo’s Dev Team, composta por 4 integrantes, como projeto de conclusão no curso técnico 'Desenvolvimento de Sistemas' pelo SENAI.",
+    "image": "./src/assets/images/venturo_land_page.jpeg",
+    "color": "green",
+    "hiperlink": "https://github.com/Venturo-s-Dev-Team",
+    "logo": "<img src='./src/assets/images/venturo_logo.png' alt='Venturo Land Page' class='name_project-logo'>",
+    "tecnologias": [
+      "Diagrama de Casos de Uso",
+      "Scrum",
+      "Kanban",
+      "API REST",
+      "React.js",
+      "Vite",
+      "MySQL Workbench",
+      "Knex.js",
+      "Axios",
+      "JavaScript",
+      "HTML/CSS",
+      "Bootstrap",
+      "GitHub",
+      "Canva",
+      "Figma",
+      "Postman",
+      "Multi-Tenant/Multi-Schemas"
+    ]
+  },
+    {
+    "id_project": 2,
+    "name_project": "CLP Educacional",
+    "start": "jan. 2025",
+    "end": "jun. 2025",
+    "subtitle": "CLP de Baixo Custo",
+    "description": "Este projeto é o desenvolvimento de um Controlador Lógico Programável (CLP) de baixo custo baseado no microcontrolador ESP32, voltado para aplicação educacional no ensino técnico de automação industrial. O projeto desenvolvido busca suprir essa necessidade ao oferecer um CLP acessível, modular e escalável, capaz de simular funções essenciais de um CLP industrial. Foram implementadas funcionalidades como interface web responsiva, comunicação via protocolo MQTT, suporte ao protocolo Modbus RTU e atualização remota de firmware (OTA). Neste projeto, trabalhei especificamente na parte da IHM Web responsiva. O projeto foi desenvolvido como conclusão do curso técnico em eletroeletrônica no SENAI.",
+    "image": "./src/assets/images/clp.jpeg",
+    "color": "red",
+    "hiperlink": "https://github.com/GuilhermeVeigaPedromilo/CLP_SENAI.git",
+    "logo": "<img src='./src/assets/images/logo_senai.png' alt='Placa Eletrônica do CLP' class='name_project-logo'>",
+    "tecnologias": [
+        "ESP32",
+        "MQTT",
+        "HTML/CSS",
+        "C++",
+        "Arduino IDE"
+    ]
+  },
+      {
+    "id_project": 3,
+    "name_project": "Pixel Bank",
+    "start": "mar. 2024",
+    "end": "jun. 2024",
+    "subtitle": "Banco Digital Mobile",
+    "description": "Desenvolvimento de um aplicativo bancário chamado Pixel Bank em React Native com Expo Go, onde ele simulava transações monetárias entre os usuários e gerava extratos. Realizado com mais três integrantes, grupo PixelProphets, no curso técnico 'Desenvolvimento de Sistemas'.",
+    "image": "./src/assets/images/pixelbank.png",
+    "color": "purple",
+    "hiperlink": "https://github.com/GuilhermeVeigaPedromilo/_Project_Pixel_Prophets_.git",
+    "logo": "<img src='./src/assets/images/pixelbank.png' alt='Pixel Bank Logo' class='name_project-logo'>",
+    "tecnologias": [
+        "ESP32",
+        "MQTT",
+        "HTML/CSS",
+        "C++",
+        "Arduino IDE"
+    ]
+  }
+]

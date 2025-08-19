@@ -138,24 +138,24 @@ section h2 {
   width: 50%;
 }
 
-#experience h2, #education h2 {
+#experience h2, #education h2, #projects h2, #certifications h2 {
   font-size: 48px;
 }
 
-.experience-grid, .education-grid {
+.experience-grid, .education-grid, .projects-grid, .certification-grid {
   display: flex;
   flex-direction: column;
   gap: 16px;
   margin-top: 24px;
 }
 
-.experience-item, .education-item {
+.experience-item, .education-item, .projects-item, .certification-item {
   position: relative;
   overflow: hidden;
   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.experience-compact, .education-compact {
+.experience-compact, .education-compact, .project-compact, .certification-compact {
   background: white;
   border-radius: 12px;
   border: 2px solid;
@@ -164,12 +164,12 @@ section h2 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.experience-compact:hover, .education-compact:hover {
+.experience-compact:hover, .education-compact:hover, .project-compact:hover, .certification-compact:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   transform: translateY(-2px);
 }
 
-.experience-compact.expanded, .education-compact.expanded {
+.experience-compact.expanded, .education-compact.expanded , .project-compact.expanded, .certification-compact.expanded{
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
@@ -189,13 +189,13 @@ section h2 {
   align-items: center;
 }
 
-.company-info, .institution-info {
+.company-info, .institution-info, .project-info, .certification-info {
   display: flex;
   align-items: center;
   gap: 16px;
 }
 
-.company-icon, .institution-icon {
+.company-icon, .institution-icon, .project-icon, .certification-icon {
   width: 48px;
   height: 48px;
   border-radius: 50%;
@@ -207,7 +207,7 @@ section h2 {
   font-size: 18px;
 }
 
-.company-details h3, .institution-details h3 {
+.company-details h3, .institution-details h3, .project-details h3, .certification-details h3 {
   font-family: var(--font-family-semi-bold);
   font-size: 1rem;
   font-weight: 600;
@@ -215,14 +215,15 @@ section h2 {
   margin-bottom: 4px;
 }
 
-.company-details .role, .institution-details .role {
+.company-details .role, .institution-details .role , .project-details .role, .certification-details .role {
   font-size: 0.9rem;
   font-weight: 500;
   color: #00BDD2;
 }
 
 .period-info,
-.location-info {
+.location-info ,
+.hiperlink-info {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -245,7 +246,7 @@ section h2 {
   transform: rotate(90deg);
 }
 
-.experience-expanded, .education-expanded {
+.experience-expanded, .education-expanded, .project-expanded, .certification-expanded {
   background: white;
   border: 2px solid;
   border-top: none;
@@ -256,8 +257,8 @@ section h2 {
   overflow: hidden;
 }
 
-.experience-expanded.open, .education-expanded.open {
-  max-height: 2000px;
+.experience-expanded.open, .education-expanded.open, .project-expanded.open, .certification-expanded.open {
+  max-height: 2250px;
   opacity: 1;
 }
 
@@ -265,7 +266,7 @@ section h2 {
   padding: 0 24px 24px;
 }
 
-.experience-image, .education-image {
+.experience-image, .education-image, .project-image, .certification-image {
   width: 100%;
   height: auto;
   object-fit: cover;
