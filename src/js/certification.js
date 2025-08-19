@@ -10,6 +10,7 @@ class CertificationManager {
       briefcase: '💼',
       calendar: '📅',
       mapPin: '📍',
+      link: '🔗',
       chevronRight: '▶',
       close: '✕'
     };
@@ -96,8 +97,18 @@ createcertificationElement(certification) {
         
         <div class="content-grid">
           <div class="description-section">
-            <h4>Descrição da Função</h4>
+            <h4>Descrição da ${certification.type}</h4>
             <p class="description-text">${certification.description}</p>
+            
+      ${certification.hiperlinks ? `
+            <h4 style="margin-top: 32px">Links Relacionados</h4>
+${certification.hiperlinks.map(hiperlink => `
+    <p class="description-text">
+      ${this.icons.link} <a href="${hiperlink.link}" style="color: #666">${hiperlink.alt}</a>
+    </p>
+`).join('')}
+
+      ` : ''}
           </div>
 
           <div class="skills-section">

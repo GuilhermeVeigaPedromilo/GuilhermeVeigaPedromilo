@@ -2,18 +2,141 @@
   {
     "id_certification": 1,
     "institution": "DIO",
-    "start": "fev. 2025",
-    "end": "fev. 2029",
+    "start": "mai. 2025",
+    "end": "jun. 2025",
     "name": "DIO Campus Expert | Turma 12",
-    "description": "Curso Bacharelado em Engenharia de Software. Durante o primeiro semestre obtive resultados satisfatórios, fechando o primeiro módulo, referente as disciplicas: 'Fundamentos e Arquitetura de Computadores' e 'Redes de Computadores' com nota máxima.",
+    "description": "Selecionado para a Turma 12 do DIO Campus Expert, o programa de embaixadores universitários da DIO. O programa tem como missão desenvolver habilidades de liderança, ampliar o networking e impulsionar a carreira de estudantes universitários, preparando-os para o mercado de tecnologia e inovação.",
     "location": "Nova Odessa, SP",
-    "image": "./src/assets/images/banner_unicesumar.png",
-    "color": "blue",
+    "image": "./src/assets/images/dio_campus_expert.png",
+    "color": "purple",
     "logo": "<img src='./src/assets/images/logo_dio.png' alt='DIO Logo' class='institution-logo'>",
+    "hiperlinks": 
+    [
+      {
+        "alt": "Certificado DIO Campus Expert | Turma 12",
+        "link": "https://www.linkedin.com/in/guilhermeveigapedromilo/details/certifications/1750200089817/single-media-viewer/?profileId=ACoAAEae9K0BZbT6aZM0LTdmRaGEHrR1qJlvWEo"
+
+      }
+    ],
+    "type": "Certificação",
     "skills": [
-      "Diagrama UML",
-      "Scrum",
-      "Diagrama de Casos de Uso"
+      "Liderança",
+      "Comunicação",
+      "Criatividade"
+    ]
+  }, 
+    {
+    "id_certification": 2,
+    "institution": "DIO",
+    "start": "abr. 2025",
+    "end": "abr. 2025",
+    "name": "Bootcamp Suzano - Python Developer",
+    "description": "Bootcamp promovido pela Suzano em parceria com a DIO, focado no desenvolvimento de habilidades em Python e IA para a formação de desenvolvedores. Durante o bootcamp, foram realizados vários desafios de projeto para praticar as habilidades aprendidas em Python e Agentes de IA.",
+    "location": "Nova Odessa, SP",
+    "image": "./src/assets/images/Suzano-bootcamp.jpg",
+    "color": "purple",
+    "logo": "<img src='./src/assets/images/logo_dio.png' alt='DIO Logo' class='institution-logo'>",
+    "hiperlinks": [
+      {
+      "alt":"Certificado Bootcamp Suzano - Python Developer",
+      "link":"https://www.dio.me/certificate/ZGLZ4KWO/share"
+      },
+      {
+        "alt": "Repositório no GitHub",
+        "link": "https://github.com/GuilhermeVeigaPedromilo/Suzano---Python-Developer.git"
+      }
+      ],
+    "type": "Certificação",
+    "skills": [
+      "Python",
+      "Microsoft Copilot Studio",
+      "Programação Orientada a Objetos (POO)",
+      "Agentes de IA"
+    ]
+  },
+      {
+    "id_certification": 3,
+    "institution": "DIO",
+    "start": "feb. 2025",
+    "end": "mar. 2025",
+    "name": "Bootcamp Heineken - Inteligência Artificial Aplicada a Dados com Copilot",
+    "description": "Bootcamp promovido pela Heineken em parceria com a DIO, focado no desenvolvimento de habilidades em Inteligência Artifical Aplicada a Dados com Copilot. Durante o bootcamp, foram realizados vários desafios de projeto para praticar design de bancos de dados SQL as habilidades e criação de dashboards e o auxílio da IA na aplicação de dados no Excel.",
+    "location": "Nova Odessa, SP",
+    "image": "./src/assets/images/banner_heineken.webp",
+    "color": "purple",
+    "logo": "<img src='./src/assets/images/logo_dio.png' alt='DIO Logo' class='institution-logo'>",
+    "hiperlinks": [
+      {
+      "alt":"Certificado do Bootcamp",
+      "link":"https://www.dio.me/certificate/DNQGTILF/share"
+      },
+      {
+        "alt": "Repositório no GitHub",
+        "link": "https://github.com/GuilhermeVeigaPedromilo/Desafios-de-projeto-Bootcamp-HeinekenIntelig-nciaArtificialAplicadaADadosComCopilot.git"
+      }
+      ],
+    "type": "Certificação",
+    "skills": [
+      "MySQL",
+      "DER (Diagrama Entidade-Relacionamento)",
+      "Microsoft Excel",
+      "Ferramentas UML",
+      "MySQL Workbench",
+      "Microsoft Copilot",
+      "Git"
+    ]
+  },
+        {
+    "id_certification": 4,
+    "institution": "Escola SENAI Dr. Celso Charuri - Unidade Sumaré",
+    "start": "fev. 2024",
+    "end": "mai. 2024",
+    "name": "Implantação de Serviços de Inteligência Artificial em Nuvem - Google Cloud AI Foudations",
+    "description": "Curso de Aperfeiçoamento Profissional em Implantação de Serviços de Inteligência Artificial em Nuvem - Google Cloud AI Foundations, oferecido pelo SENAI. O curso abrangeu conceitos fundamentais de IA, aprendizado de máquina e suas aplicações práticas na nuvem.",
+    "location": "Nova Odessa, SP",
+    "image": "./src/assets/images/gcp_img.webp",
+    "color": "red",
+    "logo": "<img src='./src/assets/images/logo_senai.png' alt='SENAI Logo' class='institution-logo'>",
+    "hiperlinks": [
+      {
+      "alt":"URL da Credencial",
+      "link":"www.sp.senai.br/consulta-certificado?qrcode=51224157219/14389149"
+      }
+      ],
+    "type": "Certificação",
+    "skills": [
+      "Preparação de Dados para IA",
+      "Validação de Modelos de IA",
+      "Implementação de Modelos de Machine Learning",
+      "Configuração de Ambiente para Uso de Diferentes Serviços Cognitivos de Visão Computacional",
+      "Configuração de Ambiente para Serviços e Funcionalidades de Processamento de Linguagem Natural",
+      "Implementação de Serviços Cognitivos de Reconhecimento de Síntese de Fala",
+      "Implementação de Serviços Cognitivos em Nuvem de IA de Conversação"
+    ]
+  },
+  {
+    "id_certification": 5,
+    "institution": "Escola SENAI Dr. Celso Charuri - Unidade Sumaré",
+    "start": "abr. 2023",
+    "end": "jun. 2023",
+    "name": "Implantação de Serviços em Nuvem - Google Cloud Foundations",
+    "description": "Curso de Aperfeiçoamento Profissional em Implantação de Serviços em Nuvem, oferecido pelo SENAI. O curso abrangeu conceitos fundamentais sobre arquitetura em nuvem, aprendizado de máquina e criações de máquinas virtuais.",
+    "location": "Nova Odessa, SP",
+    "image": "./src/assets/images/gcp_img.webp",
+    "color": "red",
+    "logo": "<img src='./src/assets/images/logo_senai.png' alt='SENAI Logo' class='institution-logo'>",
+    "hiperlinks": [
+      {
+      "alt":"URL da Credencial",
+      "link":"www.sp.senai.br/consulta-certificado?qrcode=51223151211/13768839"
+      }
+      ],
+    "type": "Certificação",
+    "skills": [
+      "Google Cloud Platform (GCP)",
+      "Criação de Máquinas Virtuais - Compute Engine",
+      "Configuração e Execução de Ambientes Big Data",
+      "Cloud Shell"
     ]
   }
 ]
