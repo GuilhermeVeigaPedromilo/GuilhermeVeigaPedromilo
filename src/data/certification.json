@@ -138,5 +138,130 @@
       "Configuração e Execução de Ambientes Big Data",
       "Cloud Shell"
     ]
+  }, 
+   {
+    "id_certification": 6,
+    "institution": "SENAI American-SP 'Profº João Baptista Salles da Silva'",
+    "start": "jan. 2024",
+    "end": "jan. 2024",
+    "name": "Arduino",
+    "description": "Curso de Aperfeiçoamento Profissional em Arduino, oferecido pelo SENAI. O curso introduziu conceitos básicos em eletroeletrônica e programação com Arduino IDE, envolvendo prática contínua em criação de circuitos e programação para automação de processos de leitura de dados de umidade, por exemplo. ",
+    "location": "Americana, SP",
+    "image": "./src/assets/images/arduino_certificado.jpg",
+    "color": "red",
+    "logo": "<img src='./src/assets/images/logo_senai.png' alt='SENAI Logo' class='institution-logo'>",
+    "hiperlinks": [
+      {
+      "alt":"URL da Credencial",
+      "link":"www.sp.senai.br/consulta-certificado?qrcode=50724192195/14268322"
+      },
+      {
+        "alt":"Repositório no GitHub",
+        "link":"https://github.com/GuilhermeVeigaPedromilo/Arduino-40H.git"
+      }
+      ],
+    "type": "Certificação",
+    "skills": [
+      "C++",
+      "Arduino IDE",
+      "Eletroletrônica Básica"
+    ]
+  },
+     {
+    "id_certification": 7,
+    "institution": "SENAI-SP, São Paulo",
+    "start": "nov. 2023",
+    "end": "nov. 2023",
+    "name": "Grand Prix SENAI de Inovação - Participação",
+    "description": "Participação no Grand Prix SENAI de Inovação de 2023. Durante o evento, participei com uma ideia de projeto que utilizava a Alexa para assistência em uma Biblioteca. Seria treinado um modelo de IA para responder perguntas dos alunos ou usuários da biblioteca para facilitar o acesso à informação de um livro ou autor específico.",
+    "location": "Nova Odessa, SP",
+    "image": "./src/assets/images/certificado_grand_prix.jpeg",
+    "color": "red",
+    "logo": "<img src='./src/assets/images/logo_senai.png' alt='SENAI Logo' class='institution-logo'>",
+    "hiperlinks": "",
+    "type": "Certificação",
+    "skills": [
+      "Trabalho em Equipe",
+      "Comunicação Assertiva" 
+    ]
+  },
+       {
+    "id_certification": 8,
+    "institution": "Fundação Bradesco",
+    "start": "jan. 2024",
+    "end": "jan. 2024",
+    "name": "Linguagem de programação - Python - Básico",
+    "description": "Curso de Python Báico, oferecido pela Fundação Bradesco. O curso abrangeu conceitos básicos da sintaxe da linguagem de programação Python. Foram abordados temas como variáveis, estruturas condicionais, entradas e saídas de dados via terminal.",
+    "location": "Nova Odessa, SP",
+    "image": "./src/assets/images/validate_certificado.png",
+    "color": "pinkred",
+    "logo": "<img src='./src/assets/images/logo_fundacao_bradesco.png' alt='Fundação Bradesco Logo' class='institution-logo'>",
+    "hiperlinks": "",
+    "type": "Certificação",
+    "skills": [
+      "Python Básico"
+    ]
+  },
+         {
+    "id_certification": 9,
+    "institution": "Fundação Bradesco",
+    "start": "mai. 2022",
+    "end": "jul. 2022",
+    "name": "Microsoft Excel 2016 - Intermediário",
+    "description": "Curso de Excel - Intermediário, oferecido pela Fundação Bradesco. O curso abrangeu conceitos de regras condicionais, fórmulas intermediárias, formatação e estilos com fórmulas, gráficos e tabelas dinâmicas de forma básica.",
+    "location": "Nova Odessa, SP",
+    "image": "./src/assets/images/validate_certificado_excel.png",
+    "color": "pinkred",
+    "logo": "<img src='./src/assets/images/logo_fundacao_bradesco.png' alt='Fundação Bradesco Logo' class='institution-logo'>",
+    "hiperlinks": "",
+    "type": "Certificação",
+    "skills": [
+      "Excel - Intermediário"
+    ]
+  },
+       {
+    "id_certification": 10,
+    "institution": "SENAI-SP, São Paulo",
+    "start": "nov. 2023",
+    "end": "nov. 2023",
+    "name": "Por dentro da Segurança Cibernética",
+    "description": "Curso de Segurança Cibernética, oferecido pelo SENAI. O curso abrangeu conceitos básicos de segurança da informação, práticas de proteção de dados e prevenção de ameaças cibernéticas.",
+    "location": "Nova Odessa, SP",
+    "image": "./src/assets/images/seguranca.png",
+    "color": "red",
+    "logo": "<img src='./src/assets/images/logo_senai.png' alt='SENAI Logo' class='institution-logo'>",
+    "hiperlinks": [
+      {
+        "alt": "Certificado Por dentro da Segurança Cibernética",
+        "link": "https://www.sp.senai.br/consulta-certificado?qrcode=00025409/7189326"
+      }
+    ],
+    "type": "Certificação",
+    "skills": [
+      "Segurança da Informação Básica",
+      "Reconhecimento de Tipos de Ameaças Cibernéticas" 
+    ]
+  },
+         {
+    "id_certification": 11,
+    "institution": "SENAI-SP, São Paulo",
+    "start": "ago. 2023",
+    "end": "ago. 2023",
+    "name": "Privacidade e proteção de dados (LGPD)",
+    "description": "Curso de Privacidade e Proteção de Dados, oferecido pelo SENAI. O curso abrangeu conceitos básicos sobre a Lei Geral de Proteção de Dados (LGPD), práticas de conformidade e proteção de dados pessoais.",
+    "location": "Nova Odessa, SP",
+    "image": "./src/assets/images/seguranca.png",
+    "color": "red",
+    "logo": "<img src='./src/assets/images/logo_senai.png' alt='SENAI Logo' class='institution-logo'>",
+    "hiperlinks": [
+      {
+        "alt": "Certificado Privacidade e proteção de dados (LGPD)",
+        "link": "https://www.sp.senai.br/consulta-certificado?qrcode=00021924/7189326"
+      }
+    ],
+    "type": "Certificação",
+    "skills": [
+      "Práticas de Conformidade com a LGPD"
+    ]
   }
 ]

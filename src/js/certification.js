@@ -47,9 +47,31 @@ class CertificationManager {
     }
   }
 
+  // Função auxiliar para parsear "mes ano" -> Date
+  parseData(mesAno) {
+    const meses = {
+      "jan.": 0, "fev.": 1, "mar.": 2, "abr.": 3, "mai.": 4, "jun.": 5,
+      "jul.": 6, "ago.": 7, "set.": 8, "out.": 9, "nov.": 10, "dez.": 11
+    };
+
+    if (!mesAno || mesAno.toLowerCase() === "atual") {
+      return new Date(); // "Atual" vira hoje
+    }
+
+    const [mes, ano] = mesAno.split(" ");
+    return new Date(parseInt(ano), meses[mes.toLowerCase()]);
+  }
+
   rendercertifications() {
     this.container.innerHTML = '';
-    
+
+    // 🔹 Ordenar antes de renderizar (mais recentes primeiro)
+    this.certifications.sort((a, b) => {
+      const dataA = this.parseData(a.end);
+      const dataB = this.parseData(b.end);
+      return dataB - dataA;
+    });
+
     this.certifications.forEach(certification => {
       const certificationElement = this.createcertificationElement(certification);
       this.container.appendChild(certificationElement);
