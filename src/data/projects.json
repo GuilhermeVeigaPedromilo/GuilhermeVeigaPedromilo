@@ -61,11 +61,12 @@
     "hiperlink": "https://github.com/GuilhermeVeigaPedromilo/_Project_Pixel_Prophets_.git",
     "logo": "<img src='./src/assets/images/pixelbank.png' alt='Pixel Bank Logo' class='name_project-logo'>",
     "tecnologias": [
-        "ESP32",
-        "MQTT",
-        "HTML/CSS",
-        "C++",
-        "Arduino IDE"
+        "React Native",
+        "CSS",
+        "JavaScript",
+        "Expo Go",
+        "MySQL Workbench",
+      "API REST"
     ]
   }
 ]
