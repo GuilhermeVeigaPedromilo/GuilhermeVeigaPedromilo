@@ -1,0 +1,67 @@
+@media (max-width: 1024px) {
+  header nav.desktop-nav {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  #home .home-title h1 {
+    font-size: 32px;
+  }
+
+  #home .home-title h2 {
+    font-size: 24px;
+  }
+
+  #home figure {
+    width: 40%;
+    height: 50vh;
+  }
+
+  #about .about-content figure {
+    display: flex;
+    width: 100%;
+  }
+
+  #about {
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+
+  #about .about-content {
+    width: 100%;
+    align-items: center;
+  }
+
+  #about figure {
+    display: none;
+  }
+
+  #about .about-content h2,
+  #experience h2,
+  #education h2,
+  #projects h2,
+  #certifications h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  #about .about-content .about-text,
+  section h2 + p {
+    font-size: 1rem;
+  }
+
+  section:not(:first-of-type) h2,
+  section h2 + p {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1025px) {
+  .menu-toggle {
+    display: none;
+  }
+}

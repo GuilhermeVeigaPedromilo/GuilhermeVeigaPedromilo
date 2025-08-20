@@ -1,3 +1,6 @@
+/* ===========================================
+   RESET E CONFIGURAÇÕES GLOBAIS
+   =========================================== */
 * {
   font-family: var(--font-family);
   margin: 0;
@@ -10,6 +13,9 @@ img {
   height: auto;
 }
 
+/* ===========================================
+   HEADER E NAVEGAÇÃO
+   =========================================== */
 header {
   display: flex;
   align-items: center;
@@ -55,6 +61,7 @@ header nav ul li a:hover {
   background: rgba(0, 189, 210, 0.05);
 }
 
+/* Menu Toggle (Mobile) */
 .menu-toggle {
   display: flex;
   flex-direction: column;
@@ -87,6 +94,9 @@ header nav ul li a:hover {
   transform: rotate(-45deg) translate(6px, -6px);
 }
 
+/* ===========================================
+   SIDEBAR E OVERLAY
+   =========================================== */
 #sidebar {
   position: fixed;
   top: 0;
@@ -206,6 +216,9 @@ header nav ul li a:hover {
   display: block;
 }
 
+/* ===========================================
+   SEÇÕES GERAIS
+   =========================================== */
 section {
   padding: 2rem 3rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -222,6 +235,9 @@ section h2 {
   color: #00BDD2;
 }
 
+/* ===========================================
+   SEÇÃO HOME
+   =========================================== */
 #home {
   position: relative;
   display: flex;
@@ -282,6 +298,9 @@ section h2 {
   z-index: 1;
 }
 
+/* ===========================================
+   SEÇÃO ABOUT
+   =========================================== */
 #about {
   display: flex;
   justify-content: space-between;
@@ -326,6 +345,9 @@ section h2 {
   height: auto;
 }
 
+/* ===========================================
+   SEÇÕES DE CONTEÚDO (Experience, Education, Projects, Certifications)
+   =========================================== */
 #experience h2,
 #education h2,
 #projects h2,
@@ -343,6 +365,7 @@ section h2 {
   margin-top: 24px;
 }
 
+/* Items Base */
 .experience-item,
 .education-item,
 .projects-item,
@@ -352,6 +375,7 @@ section h2 {
   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Compact Cards */
 .experience-compact,
 .education-compact,
 .project-compact,
@@ -380,6 +404,7 @@ section h2 {
   border-bottom-right-radius: 0;
 }
 
+/* Compact Content */
 .compact-content {
   padding: 24px;
   display: grid;
@@ -395,6 +420,7 @@ section h2 {
   align-items: center;
 }
 
+/* Info Components */
 .company-info,
 .institution-info,
 .project-info,
@@ -449,6 +475,7 @@ section h2 {
   font-size: 0.9rem;
 }
 
+/* Expand Icon */
 .expand-icon {
   width: 20px;
   height: 20px;
@@ -464,6 +491,7 @@ section h2 {
   transform: rotate(90deg);
 }
 
+/* Expanded Content */
 .experience-expanded,
 .education-expanded,
 .project-expanded,
@@ -598,12 +626,15 @@ section h2 {
   color: white;
 }
 
-/* Color Classes */
+/* ===========================================
+   CLASSES DE CORES
+   =========================================== */
+
+/* Color Red */
 .color-red {
   border-color: #ef4444;
 }
 
-.color-red .company-icon,
 .color-red .duration-icon {
   background-color: #ef4444;
 }
@@ -623,11 +654,11 @@ section h2 {
   color: #ef4444;
 }
 
+/* Color Yellow */
 .color-yellow {
   border-color: #eab308;
 }
 
-.color-yellow .company-icon,
 .color-yellow .duration-icon {
   background-color: #eab308;
 }
@@ -647,11 +678,11 @@ section h2 {
   color: #eab308;
 }
 
+/* Color Dark Blue */
 .color-darkblue {
   border-color: #1e3a8a;
 }
 
-.color-darkblue .company-icon,
 .color-darkblue .duration-icon {
   background-color: #1e3a8a;
 }
@@ -671,11 +702,11 @@ section h2 {
   color: #1e3a8a;
 }
 
+/* Color Blue */
 .color-blue {
   border-color: #00BDD2;
 }
 
-.color-blue .company-icon,
 .color-blue .duration-icon {
   background-color: #00BDD2;
 }
@@ -695,11 +726,11 @@ section h2 {
   color: #00BDD2;
 }
 
+/* Color Green */
 .color-green {
   border-color: #22c55e;
 }
 
-.color-green .company-icon,
 .color-green .duration-icon {
   background-color: #22c55e;
 }
@@ -719,11 +750,11 @@ section h2 {
   color: #22c55e;
 }
 
+/* Color Purple */
 .color-purple {
   border-color: #a855f7;
 }
 
-.color-purple .company-icon,
 .color-purple .duration-icon {
   background-color: #a855f7;
 }
@@ -743,11 +774,11 @@ section h2 {
   color: #a855f7;
 }
 
+/* Color Orange */
 .color-orange {
   border-color: #f97316;
 }
 
-.color-orange .company-icon,
 .color-orange .duration-icon {
   background-color: #f97316;
 }
@@ -767,12 +798,11 @@ section h2 {
   color: #f97316;
 }
 
+/* Color Gradient France */
 .color-gradient-france {
   border-color: #1e3a8a;
-  /* Azul forte como referência */
 }
 
-.color-gradient-france .company-icon,
 .color-gradient-france .duration-icon {
   background: linear-gradient(to right, #1e3a8a, #ffffff, #ef4444);
 }
@@ -792,14 +822,13 @@ section h2 {
   background: linear-gradient(to right, #1e3a8a, #ef4444);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  /* Faz o texto herdar o gradiente */
 }
 
+/* Color Pink Red */
 .color-pinkred {
   border-color: #f31656;
 }
 
-.color-pinkred .company-icon,
 .color-pinkred .duration-icon,
 .color-pinkred .project-icon {
   background-color: #f31656;
@@ -820,6 +849,9 @@ section h2 {
   color: #f31656;
 }
 
+/* ===========================================
+   FOOTER
+   =========================================== */
 footer {
   background: #f9f9f9;
   border-top: 2px solid #00BDD2;
@@ -873,124 +905,4 @@ footer {
   background: #00BDD2;
   color: #fff;
   border-color: #007B8C;
-}
-
-@media (max-width: 1667px) {
-  #home .home-title h1 {
-    font-size: 48px;
-  }
-
-  #home .home-title h2 {
-    font-size: 40px;
-  }
-}
-
-@media (max-width: 1367px) {
-  #home .home-title h1 {
-    font-size: 40px;
-  }
-
-  #home .home-title h2 {
-    font-size: 32px;
-  }
-}
-
-/* Responsividade */
-@media (max-width: 1024px) {
-  header nav.desktop-nav {
-    display: none;
-  }
-
-  .menu-toggle {
-    display: flex;
-  }
-
-  #home {
-    height: 70vh;
-  }
-
-  #home .home-title h1 {
-    font-size: 32px;
-  }
-
-  #home .home-title h2 {
-    font-size: 24px;
-  }
-
-  #home figure {
-    width: 40%;
-    height: 50vh;
-  }
-
-  #about .about-content figure {
-    display: flex;
-    width: 85%;
-  }
-
-  #about {
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
-  }
-
-  #about .about-content {
-    width: 100%;
-    align-items: center;
-  }
-
-  #about figure {
-    display: none;
-  }
-}
-
-@media (min-width: 1025px) {
-  .menu-toggle {
-    display: none;
-  }
-}
-
-@media (max-width: 480px) {
-  #sidebar {
-    max-width: 100%;
-  }
-
-  header {
-    padding: 0 1rem;
-  }
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-
-  header {
-    height: 15vh;
-  }
-
-  #home {
-    height: 65vh;
-
-  }
-
-  #home figure {
-    width: 40%;
-    height: 45vh;
-  }
-
-  .compact-info {
-    grid-template-columns: 1fr;
-    gap: 16px;
-  }
-
-  .content-grid {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
-
-  .compact-content {
-    padding: 20px;
-  }
-
-  .expanded-content {
-    padding: 0 20px 20px;
-  }
 }

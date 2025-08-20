@@ -1,0 +1,23 @@
+@media (max-width: 1667px) {
+  #home .home-title h1 {
+    font-size: 48px;
+  }
+
+  #home .home-title h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1367px) {
+  #home {
+    height: 70vh;
+  }
+
+  #home .home-title h1 {
+    font-size: 40px;
+  }
+
+  #home .home-title h2 {
+    font-size: 32px;
+  }
+}

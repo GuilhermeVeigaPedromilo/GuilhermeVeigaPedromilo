@@ -8,25 +8,23 @@
   <link rel="icon" href="./src/assets/icons/GVP.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./src/styles/root.css">
   <link rel="stylesheet" href="./src/styles/style.css">
+  <link rel="stylesheet" href="./src/styles/large_screens.css" media="(max-width: 1667px)">
+  <link rel="stylesheet" href="./src/styles/tablets.css" media="(max-width: 1024px)">
+  <link rel="stylesheet" href="./src/styles/mobile.css" media="(max-width: 768px)">
 </head>
-<script src="./src/js/experience.js"></script>
-<script src="./src/js/education.js"></script>
-<script src="./src/js/projects.js"></script>
-<script src="./src/js/certification.js"></script>
-<script src="./src/js/sidebar.js" defer></script>
 
 <body>
   <header>
-    <h1 class="site-title" data-i18n="portfolio">Meu Portfólio</h1>
+    <img src="./src/assets/icons/GVP.svg" style="width: auto; height: 75%;">
 
     <nav class="desktop-nav">
       <ul>
-        <li><a href="#home" data-i18n="home">Home</a></li>
-        <li><a href="#about" data-i18n="about">Sobre</a></li>
-        <li><a href="#education" data-i18n="education">Educação</a></li>
-        <li><a href="#experience" data-i18n="experience">Experiência</a></li>
-        <li><a href="#projects" data-i18n="projects">Projetos</a></li>
-        <li><a href="#certifications" data-i18n="certifications">Certificados</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#education">Educação</a></li>
+        <li><a href="#experience">Experiência</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#certifications">Certificados</a></li>
       </ul>
     </nav>
 
@@ -40,7 +38,7 @@
   <!-- Sidebar -->
   <aside id="sidebar">
     <div class="sidebar-header">
-      <h2 data-i18n="menu">Menu</h2>
+      <h2>Menu</h2>
       <button id="close-sidebar">×</button>
     </div>
 
@@ -48,37 +46,37 @@
       <li>
         <a href="#home">
           <div class="nav-icon">🏠</div>
-          <span data-i18n="home">Home</span>
+          <span>Home</span>
         </a>
       </li>
       <li>
         <a href="#about">
           <div class="nav-icon">👨‍💻</div>
-          <span data-i18n="about">Sobre</span>
+          <span>Sobre</span>
         </a>
       </li>
       <li>
         <a href="#education">
           <div class="nav-icon">🎓</div>
-          <span data-i18n="education">Educação</span>
+          <span>Educação</span>
         </a>
       </li>
       <li>
         <a href="#experience">
           <div class="nav-icon">💼</div>
-          <span data-i18n="experience">Experiência</span>
+          <span>Experiência</span>
         </a>
       </li>
       <li>
         <a href="#projects">
           <div class="nav-icon">🚀</div>
-          <span data-i18n="projects">Projetos</span>
+          <span>Projetos</span>
         </a>
       </li>
       <li>
         <a href="#certifications">
           <div class="nav-icon">🏆</div>
-          <span data-i18n="certifications">Certificados</span>
+          <span>Certificados</span>
         </a>
       </li>
     </ul>
@@ -103,9 +101,9 @@
     <section id="about">
       <div class="about-content">
         <h2>About Me</h2>
-              <figure>
-        <img src="./src/assets/images/fotos.svg" alt="Foto do Guilherme enfrente ao Museu do Ipiranga">
-      </figure>
+        <figure>
+          <img src="./src/assets/images/fotos.svg" alt="Foto do Guilherme enfrente ao Museu do Ipiranga">
+        </figure>
         <div class="about-text">
           <p>
             Eu sou o Guilherme Veiga Pedromilo, sou desenvolvedor técnico de sistemas e técnico em eletroeletrônica,
@@ -152,9 +150,6 @@
       <div id="certification-container" class="certification-grid"></div>
     </section>
 
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-    <script src="./src/js/srcipt_canvas.js"></script>
   </main>
   <footer>
     <div class="footer-content">
@@ -180,6 +175,14 @@
       <a href="#home" class="back-to-top" data-i18n="back_to_top">Voltar ao topo</a>
     </div>
   </footer>
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="./src/js/srcipt_canvas.js"></script>
+  <script src="./src/js/experience.js"></script>
+  <script src="./src/js/education.js"></script>
+  <script src="./src/js/projects.js"></script>
+  <script src="./src/js/certification.js"></script>
+  <script src="./src/js/sidebar.js" defer></script>
 </body>
 
 </html>

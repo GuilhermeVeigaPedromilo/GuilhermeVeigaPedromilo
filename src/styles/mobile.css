@@ -1,0 +1,100 @@
+@media (max-width: 768px) {
+  header {
+    height: 10vh;
+  }
+
+  #home {
+    height: 50vh;
+  }
+
+  #home figure {
+    width: 40%;
+    height: 45vh;
+  }
+
+  #home .home-title h1 {
+    font-size: 24px;
+    line-height: 0.5;
+  }
+
+  #home .home-title h2 {
+    font-size: 16px;
+  }
+
+  .compact-info {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .content-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .compact-content {
+    padding: 20px;
+  }
+
+  .expanded-content {
+    padding: 0 20px 20px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 667px) {
+  #home {
+    flex-direction: column;
+    height: 85vh;
+    position: relative;
+  }
+
+  #home .home-title {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    margin-top: 35%;
+  }
+
+  #home .home-title h1 {
+    font-size: 36px;
+    line-height: 1;
+    text-align: center;
+  }
+
+  #home .home-title h2 {
+    font-size: 24px;
+  }
+
+  #home figure {
+    width: 75%;
+    align-self: flex-end;
+    position: absolute;
+    bottom: 0;
+  }
+
+  #particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+}
+
+/* Extra Small Mobile */
+@media (max-width: 480px) {
+  #sidebar {
+    max-width: 90%;
+  }
+
+  #home .home-title {
+    margin-top: 50%;
+  }
+
+  #home .home-title h1 {
+    font-size: 24px;
+  }
+
+  #home .home-title h2 {
+    font-size: 16px;
+  }
+}
