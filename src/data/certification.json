@@ -263,5 +263,37 @@
     "skills": [
       "Práticas de Conformidade com a LGPD"
     ]
+  },
+  {
+    "id_certification": 12,
+    "institution": "DIO",
+    "start": "jun. 2025",
+    "end": "ago. 2025",
+    "name": "Bootcamp Santander 2025 - Front-End",
+    "description": "Bootcamp promovido pela Santander em parceria com a DIO, focado no desenvolvimento de habilidades em desenvolvimento Front-End. Durante o bootcamp, foram realizados vários desafios de projeto para praticar semântica no HTML, responsividade no CSS, conexão entre aplicação front-end com APIs, animações, JavaScript em desenvolvimento front-end e back-end básico para consumir dados de JSON.",
+    "location": "Nova Odessa, SP",
+    "image": "./src/assets/images/bootcamp_santander2025.png",
+    "color": "purple",
+    "logo": "<img src='./src/assets/images/logo_dio.png' alt='DIO Logo' class='institution-logo'>",
+    "hiperlinks": [
+      {
+      "alt":"Certificado do Bootcamp",
+      "link":"https://www.dio.me/certificate/QLKB86HE/share"
+      },
+      {
+        "alt": "Repositório no GitHub",
+        "link": "https://github.com/GuilhermeVeigaPedromilo/Bootcamp_Santander_2025_Front_End.git"
+      }
+      ],
+    "type": "Certificação",
+    "skills": [
+      "Desenvolvimento Front-End",
+      "HTML semântico",
+      "CSS",
+      "JavaScript",
+      "API",
+      "JSON",
+      "Git"
+    ]
   }
 ]
