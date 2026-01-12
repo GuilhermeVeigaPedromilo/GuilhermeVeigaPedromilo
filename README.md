@@ -1,15 +1,12 @@
-<img src="./src/assets/images/Guilherme Veiga Pedromilo.jpg" alt="Guilherme Veiga Pedromilo" />
+<img src="./src/assets/images/Guilherme Veiga Pedromilo.png" alt="Guilherme Veiga Pedromilo" />
 
 ---
 
 Sou desenvolvedor técnico de sistemas e técnico em eletroeletrônica, estudante de Engenharia de Software e músico nas horas vagas. Gosto de propor soluções à problemas, busco visualizar de forma sistêmica os processos e trabalhar em equipe. Sou proativo, altruísta, organizado e flexível.
 
-Meu objetivo é desenvolver uma carreira no mundo da tecnologia, sendo minha paixão a área de desenvolvimento de software.
+Meu objetivo é desenvolver uma carreira no mundo da tecnologia, sendo minha paixão a área de desenvolvimento de software.Trabalho com desenvolvimento de sistemas web e mobile com as seguintes tecnologias de front-end: REACT; VITE; REACT NATIVE; CSS; HTML; JS; WordPress; Bootstrap; Canva; Figma. E back-end: API REST com Node; JS; ORM'S; SQL Query Builder; SGBD SQL e NoSQL (mongoDB); Express; JWT; Google Cloud Plataform (GCP). E também tenho alguns conhecimentos em treinamentos de modelos e implantação de serviços em nuvem com IA na GCP.
 
-Trabalho com desenvolvimento de sistemas web e mobile com as seguintes tecnologias de front-end: REACT; VITE; REACT NATIVE; CSS; HTML; JS; WordPress; Bootstrap; Canva; Figma. E back-end: API REST com Node; JS; ORM'S; SQL Query Builder; SGBD SQL e NoSQL (mongoDB); Express; JWT; Google Cloud Plataform (GCP). Além disso, tenho alguns conhecimentos em treinamentos de modelos e implantação de serviços em nuvem com IA na GCP.
-
-Além disso, procuro sempre aprender algo novo para me atualizar as novas tendências do mercado, para superar
-desafios e entregar soluções alinhadas as metodologias ágeis (como 5S e Srcum/Kanban), de forma que seja alcançadas as metas propostas e eu possa crescer profissionalmente com os aprendizados.
+Além disso, procuro sempre aprender algo novo para me atualizar as novas tendências do mercado, para superar desafios e entregar soluções alinhadas as metodologias ágeis (como 5S e Srcum/Kanban), de forma que seja alcançadas as metas propostas e eu possa crescer profissionalmente com os aprendizados.
 
 ---
 
@@ -17,7 +14,7 @@ desafios e entregar soluções alinhadas as metodologias ágeis (como 5S e Srcum
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=GuilhermeVeigaPedromilo&show_icons=true&theme=transparent"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuilhermeVeigaPedromilo&layout=compact&theme=transparent&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&bg_color=00000000"/>
 </div>
 
 ---
@@ -33,7 +30,6 @@ desafios e entregar soluções alinhadas as metodologias ágeis (como 5S e Srcum
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" display="flex" gap="10px" height="100" alt="HTML5 logo" title="HTML5"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" display="flex" gap="10px" height="100" alt="CSS3 logo" title="CSS3"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/knexjs/knexjs-original-wordmark.svg" display="flex" gap="10px" height="100" alt="Knex.js logo" title="Knex.js"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original-wordmark.svg" display="flex" gap="10px" height="100" alt="Prisma logo" title="Prisma"/> 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" display="flex" gap="10px" height="100" title="Express"/> 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" display="flex" gap="10px" height="100" title="Bootstrap (básico)"/> 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" display="flex" gap="10px" height="100" title="Windows"/> 
