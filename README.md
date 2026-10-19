@@ -22,10 +22,10 @@ Finally, I try to know the process within corporation and develop my work based 
 
 ## 🚀 Minhas estatísticas no GitHub
 
-<div align="center">
+<div align='center' style="display: inline-flex; flex-direction: row;">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=GuilhermeVeigaPedromilo&show_icons=true&theme=transparent"/>
-
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&bg_color=00000000"/>
+  
+  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GuilhermeVeigaPedromilo)](https://github.com/anuraghazra/github-readme-stats)
 </div>
 
 ---
